@@ -8,19 +8,19 @@ public class Bob {
         // Any other input will be responded with "Whatever."
 
         // need a scanner so we can accept user input
-        String customerChoice, conversations = "";
+        String userInput, conversations = "";
         Scanner scanner = new Scanner(System.in);
 //        while ()
 //        {
         System.out.println("What do you want?");
         while (conversations.equals("")) {
-            customerChoice = scanner.nextLine();
+            userInput = scanner.nextLine();
 
-            if (customerChoice.endsWith("!")) {
+            if (userInput.endsWith("!")) {
                 System.out.println("Whoa, chill out!");
-            } else if (customerChoice.endsWith("?") && !customerChoice.startsWith("how")) {
+            } else if (userInput.endsWith("?") && !userInput.startsWith("how")) {
                 System.out.println("Sure.");
-            } else if (customerChoice.equals("") || customerChoice.equals("...")) {
+            } else if (userInput.equals("") || userInput.equals("...")) {
                 System.out.println("Fine. Be that way!");
                 conversations = "end";
 
