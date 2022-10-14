@@ -21,6 +21,8 @@ public class ControlStatementsLecture {
         System.out.println("What flavor do you want?");
         customerChoice = scanner.next().toLowerCase();
 
+
+
         // traditional switch statement
 //        switch (customerChoice) {
 //            case "vanilla":
@@ -37,13 +39,20 @@ public class ControlStatementsLecture {
 //                break;
 //        }
 
+        // if you use == it won't work because == is stricter than .equals
+//        if (customerChoice == "vanilla"){
+//            System.out.println("One Vanilla coming up");
+//        } else {
+//            System.out.println("No such flavor");
+//        }
+
         // enhanced switch statement
-        switch (customerChoice) {
-            case "vanilla" -> System.out.println("One vanilla coming right up");
-            case "chocolate" -> System.out.println("chocolate coming right up");
-            case "strawberry" -> System.out.println("strawberry coming right up");
-            default -> System.out.println("We don't have that");
-        }
+//        switch (customerChoice) {
+//            case "vanilla" -> System.out.println("One vanilla coming right up");
+//            case "chocolate" -> System.out.println("chocolate coming right up");
+//            case "strawberry" -> System.out.println("strawberry coming right up");
+//            default -> System.out.println("We don't have that");
+//        }
 
         int c = 0, d = 100, e = 50;
         if (c == 1 && e++ < 100){
