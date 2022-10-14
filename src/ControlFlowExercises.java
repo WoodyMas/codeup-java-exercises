@@ -215,7 +215,7 @@ public class ControlFlowExercises {
 //            System.out.println("Would you like to see the entire Grade Chart?");
 
 
-            System.out.println("Continue?");
+            System.out.println("Continue? (y/n)");
             userPrompt = sc.next();
             System.out.println();
         }

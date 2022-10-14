@@ -14,13 +14,13 @@ public class Bob {
 //        {
         System.out.println("What do you want?");
         while (conversations.equals("")) {
-            userInput = scanner.nextLine();
+            userInput = scanner.nextLine().toLowerCase();
 
             if (userInput.endsWith("!")) {
                 System.out.println("Whoa, chill out!");
             } else if (userInput.endsWith("?") && !userInput.startsWith("how")) {
                 System.out.println("Sure.");
-            } else if (userInput.equals("") || userInput.equals("...")) {
+            } else if (userInput.equals("") || userInput.equals("...") || userInput.equals("bye")) {
                 System.out.println("Fine. Be that way!");
                 conversations = "end";
 
