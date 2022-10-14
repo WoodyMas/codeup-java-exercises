@@ -7,10 +7,32 @@ public class Bob {
         // Empty inputs will be responded with "Fine. Be that way!"
         // Any other input will be responded with "Whatever."
 
-                // need a scanner so we can accept user input
-                String customerChoice;
-                Scanner scanner = new Scanner(System.in);
-                customerChoice = scanner.nextLine();
+        // need a scanner so we can accept user input
+        String customerChoice, conversations = "";
+        Scanner scanner = new Scanner(System.in);
+//        while ()
+//        {
+        System.out.println("What do you want?");
+        while (conversations.equals("")) {
+            customerChoice = scanner.nextLine();
 
+            if (customerChoice.endsWith("!")) {
+                System.out.println("Whoa, chill out!");
+            } else if (customerChoice.endsWith("?") && !customerChoice.startsWith("how")) {
+                System.out.println("Sure.");
+            } else if (customerChoice.equals("") || customerChoice.equals("...")) {
+                System.out.println("Fine. Be that way!");
+                conversations = "end";
+
+            } else {
+                System.out.println("Whatever.");
             }
-}
+        }
+//        }
+
+//        System.out.println(customerChoice);
+
+
+
+    } // End Main
+} // End Bob Class
