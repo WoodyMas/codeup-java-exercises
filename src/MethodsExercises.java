@@ -13,7 +13,7 @@ public class MethodsExercises {
         int get = getIntegerRecursion(1, 10);
         int fact = calculateFactorial(get);
         System.out.println(fact);
-//        System.out.println(twoDice());
+        rollDice();
 
 
     } // End main
@@ -106,16 +106,35 @@ public class MethodsExercises {
             }
         } // End getIntegerRecursion
 
+        public static long  generateRandomNum (int max){
+            return Math.round(Math.random() * max);
+        }
+
         //Create an application that simulates dice rolling.
 
     //Ask the user to enter the number of sides for a pair of dice.
-        public static double twoDice (){
-
-        return 0;
-        }
+        public static void rollDice (){
+            Scanner scanner = new Scanner(System.in);
     //Prompt the user to roll the dice.
+            System.out.println("How many sides do the dice have?");
+            byte numbersOfSides = scanner.nextByte();
+            System.out.printf("Your dice have %d sides.%n", numbersOfSides);
     //"Roll" two n-sided dice, display the results of each, and then ask the user if he/she wants to roll the dice again.
-    //Use static methods to implement the method(s) that generate the random numbers.
-    //Use the .random method of the java.lang.Math class to generate random numbers.
+            System.out.println("Do you want to roll the dice? (y/n)");
+            String userChoice = scanner.next();
+            while (userChoice.equals("y")) {
+                System.out.println("You rolled the dice");
 
+                //Use static methods to implement the method(s) that generate the random numbers.
+                //Use the .random method of the java.lang.Math class to generate random numbers.
+                System.out.printf("You rolled %d and %d%n",
+                        generateRandomNum(numbersOfSides),
+                        generateRandomNum(numbersOfSides));
+                System.out.printf("Do you want to roll again? (y/n)%n");
+                userChoice = scanner.next();
+            }
+
+
+
+    }
 } // Emd MethodsExercises Class
