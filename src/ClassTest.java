@@ -17,14 +17,25 @@ public class ClassTest {
 //        animal1.adjective = "piercing";
 //        animal1.makeNoise();
 //
-        Animal animal2 = new Animal();
-        animal2.name = "Cat";
-//        animal2.sound = "TestSound";
-        animal2.adjective = "apathetically";
-        animal2.sound = Quote.randomQuoteNumber();
+//        Animal animal2 = new Animal();
+//        animal2.name = "Cat";
+////        animal2.sound = "TestSound";
+//        animal2.adjective = "apathetically";
+//        animal2.sound = Quote.randomQuoteNumber();
+//
+//        System.out.printf("The %s says %s %s", animal2.name, animal2.sound, animal2.adjective);
 
-        System.out.printf("The %s says %s %s", animal2.name, animal2.sound, animal2.adjective);
+        Employee employee1 = new Employee();
+        Employee employee2 = new Employee();
+        Employee employee3 = new Employee();
+        employee1.name = "Pablo";
+        employee2.name = "Escobar";
+        employee3.name = "Checo";
+        System.out.println(employee1.displayEmployeeInfo());
+        System.out.println(employee2.displayEmployeeInfo());
+        System.out.println(employee3.displayEmployeeInfo());
 
+        System.out.println(Employee.company);
     }
 
 
