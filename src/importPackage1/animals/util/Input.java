@@ -1,9 +1,8 @@
-package util;
+package importPackage1.animals.util;
 
 import java.util.Scanner;
-import shapes.Circle;
 
-  public class Input {
+public class Input {
 
 //    Circle circle = new Circle();
 
@@ -25,7 +24,7 @@ import shapes.Circle;
 //        scanner.nextLine();
         boolean yesLogic = true;
 
-          System.out.println("Continue? (y/n)");
+          System.out.println("Would you like to go again? (y/n)");
           String userInput = scanner.next().toLowerCase();
           if (userInput.equals("y") || userInput.equals("yes")) {
               return true;

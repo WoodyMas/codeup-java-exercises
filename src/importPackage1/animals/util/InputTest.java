@@ -1,7 +1,5 @@
-package util;
+package importPackage1.animals.util;
 
-import java.util.Scanner;
-import util.Input;
 public class InputTest {
     public static void main(String[] args) {
         Input input = new Input();

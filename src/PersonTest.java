@@ -1,10 +1,10 @@
 public class PersonTest {
     public static void main(String[] args) {
-        Person person = new Person();
-//        person1.returnInstance();
-        person.setName("Mack Krweqk");
-//        person1.getName();
-        person.sayHello();
+//        Person person = new Person();
+////        person1.returnInstance();
+//        person.setName("Mack Krweqk");
+////        person1.getName();
+//        person.sayHello();
 
 //        Person person1 = new Person("John");
 //        Person person2 = new Person("John");

@@ -1,7 +1,7 @@
-package shapes;
+package importPackage1.animals.shapes;
 
 import java.util.Scanner;
-import util.Input;
+import importPackage1.animals.util.Input;
 
 public class Circle {
 
@@ -23,7 +23,7 @@ public class Circle {
 //        this.PI = PI;
     }
 
-    public double setRadius(){
+    public double setAllCirc(){
         System.out.println("Enter a radius");
         double userDouble = scanner.nextDouble();
         Circle.radius = userDouble;
@@ -33,11 +33,18 @@ public class Circle {
 //        input.yesNo2();
 
         if (input.yesNo()){
-            setRadius();
+            setAllCirc();
         } else {
             return userDouble;
         }
 
+        return userDouble;
+    }
+
+    public double setRadius(){
+        System.out.println("Enter a radius");
+        double userDouble = scanner.nextDouble();
+        Circle.radius = userDouble;
         return userDouble;
     }
 

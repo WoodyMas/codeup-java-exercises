@@ -1,4 +1,4 @@
-package animals;
+package importPackage1.animals;
 
 public class AnimalTest {
     public void makeNoise(){
