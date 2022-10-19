@@ -11,13 +11,13 @@ public class ClassTest {
 //
 //        Fighter fighter2 = new Fighter();
 //
-//        Animal animal1 = new Animal();
+//        animals.Animal animal1 = new animals.Animal();
 //        animal1.name = "Cat";
 //        animal1.sound = "meow";
 //        animal1.adjective = "piercing";
 //        animal1.makeNoise();
 //
-//        Animal animal2 = new Animal();
+//        animals.Animal animal2 = new animals.Animal();
 //        animal2.name = "Cat";
 ////        animal2.sound = "TestSound";
 //        animal2.adjective = "apathetically";
@@ -36,6 +36,9 @@ public class ClassTest {
         System.out.println(employee3.displayEmployeeInfo());
 
         System.out.println(Employee.company);
+        Fighter fighter3 = new Fighter("Mac Krweqk", 8, 12);
+        fighter3.printStats();
+
     }
 
 

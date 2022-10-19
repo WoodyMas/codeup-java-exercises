@@ -11,5 +11,9 @@ public class Employee {
         return name + " works at " + company;
     }
 
+    public Employee(){
+        System.out.println("We have a new Employee");
+    }
+
 
 }
