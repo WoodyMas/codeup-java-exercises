@@ -1,7 +1,7 @@
 package importPackage1.animals.shapes;
 
 import java.util.Scanner;
-import importPackage1.animals.util.Input;
+import util.Input;
 
 public class Circle {
 

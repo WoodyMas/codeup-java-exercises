@@ -1,4 +1,4 @@
-package importPackage1.animals.util;
+package util;
 
 import java.util.Scanner;
 
@@ -14,10 +14,16 @@ public class Input {
 
       }
 
-      public String getString(){
-        System.out.println("Enter text:");
+      public String getString(String string){
+//        System.out.println("Enter text:");
+
+        System.out.println(string);
         return scanner.nextLine();
 
+      }
+      public String getString (){
+        System.out.println("Enter text:");
+        return scanner.nextLine();
       }
 
       public boolean yesNo (){

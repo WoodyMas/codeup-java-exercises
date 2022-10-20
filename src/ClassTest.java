@@ -11,13 +11,13 @@ public class ClassTest {
 //
 //        Fighter fighter2 = new Fighter();
 //
-//        importPackage1.animals.Animal animal1 = new importPackage1.animals.Animal();
+//        animals.Animal animal1 = new animals.Animal();
 //        animal1.name = "Cat";
 //        animal1.sound = "meow";
 //        animal1.adjective = "piercing";
 //        animal1.makeNoise();
 //
-//        importPackage1.animals.Animal animal2 = new importPackage1.animals.Animal();
+//        animals.Animal animal2 = new animals.Animal();
 //        animal2.name = "Cat";
 ////        animal2.sound = "TestSound";
 //        animal2.adjective = "apathetically";
