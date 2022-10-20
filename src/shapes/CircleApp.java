@@ -1,5 +1,5 @@
-package importPackage1.animals.shapes;
-//import importPackage1.animals.shapes.Circle;
+package shapes;
+//import importPackage1.animals.shapes.shapes.Circle;
 import util.Input;
 
 public class CircleApp {

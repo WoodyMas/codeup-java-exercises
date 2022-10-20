@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Input {
 
-//    Circle circle = new Circle();
+//    shapes.Circle circle = new shapes.Circle();
 
     private static Scanner scanner;
 

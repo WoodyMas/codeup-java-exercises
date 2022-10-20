@@ -1,8 +1,24 @@
 package animals;
 
-public class Bird {
+    public class Bird {
+// ====================================================================================================================
+        private String name;
 
-    public void makeNoise(){
-        System.out.println("caw caw");
-    }
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public void makeNoise(){
+            System.out.println("caw caw");
+        }
+
+        public static void birdSounds (Bird[] birdsArray){
+            for (Bird bird : birdsArray) {
+                bird.makeNoise();
+            }
+        }
 }

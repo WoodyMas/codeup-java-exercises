@@ -1,3 +1,5 @@
+package rpg;
+
 public class Fighter {
 // =====================================================================================================================
     private String name;
@@ -17,7 +19,8 @@ public class Fighter {
 
     public int attackRoll(){
 //        D20 d20 = new D20(); // We don't have to do this with the code below
-        return D20.rollD20();
+//        return D20.rollD20();
+        return 0;
     }
 
     public void printStats(){

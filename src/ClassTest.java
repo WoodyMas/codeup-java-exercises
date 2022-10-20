@@ -1,6 +1,6 @@
 public class ClassTest {
     public static void main(String[] args) {
-//        Fighter fighter1 = new Fighter(); // We are constructing a new instance of the Fighter class (using the new method)
+//        rpg.Fighter fighter1 = new rpg.Fighter(); // We are constructing a new instance of the rpg.Fighter class (using the new method)
 //        fighter1.name = "Gheedruh";
 //        fighter1.hitPoints = 17;
 //        fighter1.maxDamage = 14;
@@ -9,7 +9,7 @@ public class ClassTest {
 //        int fighter1attackRoll = fighter1.attackRoll();
 //        System.out.printf(" %s attacks and rolls a %d%n", fighter1.name, fighter1attackRoll);
 //
-//        Fighter fighter2 = new Fighter();
+//        rpg.Fighter fighter2 = new rpg.Fighter();
 //
 //        animals.Animal animal1 = new animals.Animal();
 //        animal1.name = "Cat";
@@ -35,9 +35,9 @@ public class ClassTest {
         System.out.println(employee2.displayEmployeeInfo());
         System.out.println(employee3.displayEmployeeInfo());
 
-        System.out.println(Employee.company);
-        Fighter fighter3 = new Fighter("Mac Krweqk", 8, 12);
-        fighter3.printStats();
+//        System.out.println(Employee.company);
+//        rpg.Fighter fighter3 = new rpg.Fighter("Mac Krweqk", 8, 12);
+//        fighter3.printStats();
 
     }
 

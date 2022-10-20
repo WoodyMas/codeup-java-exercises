@@ -1,4 +1,4 @@
-package importPackage1.animals.shapes;
+package shapes;//package importPackage1.animals.shapes;
 
 import java.util.Scanner;
 import util.Input;
