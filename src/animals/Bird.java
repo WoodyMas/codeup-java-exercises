@@ -1,6 +1,6 @@
 package animals;
 
-    public class Bird {
+  abstract   public class Bird {
 // ====================================================================================================================
         private String name;
 
@@ -20,5 +20,8 @@ package animals;
             for (Bird bird : birdsArray) {
                 bird.makeNoise();
             }
+        }
+        public Bird(){
+            System.out.println("output Bird");
         }
 }
