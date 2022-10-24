@@ -64,7 +64,7 @@ public class CollectionsLecture {
         }
         System.out.println("The traditional loop allows more flexibility than the enhanced for loop, though the enhanced for loop requires less syntax and is faster to implement\n");
 
-        // gotta use Integer instead of int because ArrayLists use objects for data types
+        // Must use Integer instead of int because ArrayLists use objects for data types
         ArrayList<Integer> myNumbers = new ArrayList<>(List.of(1, 5, 9, 11, 89,34, -67, 23, 45, 3));
         System.out.println(myNumbers);
         Collections.sort(myNumbers); // Collections.sort() doesn't create a new arrayList, it mutates the selected arrayList
@@ -87,6 +87,8 @@ public class CollectionsLecture {
         System.out.println(monsterArrayList);
         System.out.println("Each monster is sorted in ascending order by the HitPoints.");
 
+        // To use the compare() method that we wrote in the Monster class, we use
+        // the sort method and pass it a no-arg constructor
         monsterArrayList.sort(new Monster());
         System.out.println(monsterArrayList);
 

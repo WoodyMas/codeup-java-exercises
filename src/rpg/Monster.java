@@ -15,8 +15,6 @@ public class Monster  implements Comparator<Monster> {
         return name;
     }
 
-
-
     // To create a custom comparison method, we implement Comparable<ObjectClassName> in the object class.
     // We use this syntax:
 
@@ -54,6 +52,8 @@ public class Monster  implements Comparator<Monster> {
     public String toString(){
         return name;
     }
+
+//    public static void generateMonster
 
     public Monster(){}
 
