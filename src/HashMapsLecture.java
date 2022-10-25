@@ -4,6 +4,8 @@ import java.util.*;
 
 import static java.util.Map.entry;
 
+// This comment is a test for GitHub
+
 public class HashMapsLecture {
     public static void main(String[] args) {
 
