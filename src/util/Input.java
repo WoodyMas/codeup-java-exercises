@@ -16,6 +16,8 @@ public class Input {
 
       public String getString(String string){
 //        System.out.println("Enter text:");
+        Integer.valueOf(string);
+        Double.valueOf(string);
 
         System.out.println(string);
         return scanner.nextLine();
@@ -71,7 +73,7 @@ public class Input {
 
     double getDouble (double min, double max){
       System.out.printf("Enter a number between %f and %f%n", min, max);
-      double userInput = scanner.nextInt();
+      double userInput = scanner.nextDouble();
       if (Math.ceil(userInput) >= min && Math.ceil(userInput) <= max){
         System.out.println("Good Job!");
         return userInput;

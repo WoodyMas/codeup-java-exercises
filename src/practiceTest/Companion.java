@@ -10,7 +10,9 @@ package practiceTest;
 
 
 // ================================================= Methods ===========================================================
-    private String Snuggle(){
-        return "";
-    }
+//    private String Snuggle(){
+//        return "";
+//    }
+
+     String Snuggle();
 }

@@ -34,10 +34,13 @@ public class PetDog extends Pet implements Companion{
     }
 
 
+    @Override
+    public String Snuggle() {
+        return null;
+    }
 
-//    public interface String Snuggle (String name){
-//        this.name = name;
-//        return this.name + " wants to snuggle!";
-//    }
+    public String Snuggle (String name) {
+        return name + " wants to snuggle";
+    }
 
 }
