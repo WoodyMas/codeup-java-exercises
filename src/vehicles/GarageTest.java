@@ -8,6 +8,9 @@ public class GarageTest {
         Car muscleCar = new Car("Challenger");
         Car luxuryVehicle = new Car("Lincoln poopenfarten");
 
+
+
+
         Vehicle[] garageVehicles = new Vehicle[4];
         garageVehicles[0] = dailyCommuter;
         garageVehicles[1] = truck;

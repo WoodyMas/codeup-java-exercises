@@ -1,6 +1,7 @@
 package assessmentReview;
 
 public class Practice {
+
     // 1. Create a class called Practice with a main method.
     //2. Create a public static method in the Practice class called *subtractTen* that takes one integer argument and returns that number minus 10.
     //3. Create a public static method *average* in the Practice class that takes an array of integers and returns their average as a double.
