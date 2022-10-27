@@ -15,7 +15,7 @@ public class ConsoleIOLecture {
 //        System.out.printf("Good %s, %s! we are on week %d%n", timeOfDay, cohort, week);
 //        System.out.printf("The number is %011.2f%n", someNumber);
 //        System.out.printf("The number is %-11.2f%n", someNumber);
-//        System.out.printf("The number is %-11.2f test%n", someNumber);
+//        System.out.printf("The number is %-11.2f test.txt%n", someNumber);
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a number:");

@@ -71,7 +71,7 @@ public class ControlFlowExercises {
 
         //Fizzbuzz
         //
-        //One of the most common interview questions for entry-level programmers is the FizzBuzz test. Developed by Imran Ghory, the test is designed to assess basic looping and conditional logic skills.
+        //One of the most common interview questions for entry-level programmers is the FizzBuzz test.txt. Developed by Imran Ghory, the test.txt is designed to assess basic looping and conditional logic skills.
         //
         // Write a program that prints the numbers from 1 to 100.
         // For multiples of three: print “Fizz” instead of the number.

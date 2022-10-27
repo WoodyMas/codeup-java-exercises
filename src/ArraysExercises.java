@@ -23,7 +23,7 @@ public class ArraysExercises {
 
         Person test = new Person("Exabiier");
 
-//        System.out.println(Person.addPerson(people, test));
+//        System.out.println(Person.addPerson(people, test.txt));
 
         people = Person.addPerson(people, test);
         Person.addPerson(people, test);
