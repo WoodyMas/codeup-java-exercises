@@ -1,5 +1,3 @@
-import Movies.Movie;
-
 public class UsefulMethods {
 
 //    public static Movie[] addMovie(Movie newMovie, Movie[] movies){
