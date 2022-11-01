@@ -14,5 +14,5 @@ package practiceTest;
 //        return "";
 //    }
 
-     String Snuggle();
+     public String Snuggle();
 }
