@@ -5,6 +5,8 @@ import java.util.List;
 
 public class Practice {
 
+
+
     public static void main(String[] args) {
     int[] numberThreeTest = {3, 4, 55, 9, 10};
         System.out.println(Practice.average(numberThreeTest));

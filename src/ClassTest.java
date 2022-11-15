@@ -25,15 +25,15 @@ public class ClassTest {
 //
 //        System.out.printf("The %s says %s %s", animal2.name, animal2.sound, animal2.adjective);
 
-        Employee employee1 = new Employee();
-        Employee employee2 = new Employee();
-        Employee employee3 = new Employee();
-        employee1.name = "Pablo";
-        employee2.name = "Escobar";
-        employee3.name = "Checo";
-        System.out.println(employee1.displayEmployeeInfo());
-        System.out.println(employee2.displayEmployeeInfo());
-        System.out.println(employee3.displayEmployeeInfo());
+//        Employee employee1 = new Employee();
+//        Employee employee2 = new Employee();
+//        Employee employee3 = new Employee();
+//        employee1.name = "Pablo";
+//        employee2.name = "Escobar";
+//        employee3.name = "Checo";
+//        System.out.println(employee1.displayEmployeeInfo());
+//        System.out.println(employee2.displayEmployeeInfo());
+//        System.out.println(employee3.displayEmployeeInfo());
 
 //        System.out.println(Employee.company);
 //        rpg.Fighter fighter3 = new rpg.Fighter("Mac Krweqk", 8, 12);
